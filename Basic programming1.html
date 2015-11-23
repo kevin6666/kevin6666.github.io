@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="stylesheets/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="stylesheets/fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="page" class="container">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">王可嘉</a></h1>
+			<h2><a href="#">Kevin</a></h2>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="http://kevin6666.github.io/"><p>主页</p></a></li>
+				<li><a href="Personal profile.html"><p>个人简介</p></a></li>
+				<li><a href="Basic programming.html"><p>基础编程</p></a></li>
+				<li><a href="Exchange of experience.html"><p>经验交流</p></a></li>
+				<li><a href="Perception of life.html"><p>生活感悟</p></a></li>
+				<li><a href="Contact information.html"><p>联系方式</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div id="banner">
+		</div>
+		<div id="featured">
+			<div class="title">
+				<h2>基础编程</h2>
+				<span class="byline">Integer sit amet aliquet pretium</span>
+			</div>
+			<ul class="style1">
+				<li class="first">
+					<p class="date"><a href="#">Jan<b>05</b></a></p>
+					<h3>事例1</h3>
+					<p><a href="#">本文阐述一个简单的OC程序，请阅读以下程序：
+
+//
+
+//  main.m
+
+//  OC_Basics
+
+//
+
+//  Created by yiyuanniunai on 15-11-20.
+
+//  Copyright (c) 2015年 yiyuanniunai. All rights reserved.
+
+//
+
+#import
+
+int main(int argc, const char * argv[])
+
+{    @autoreleasepool    {        
+
+            int value1,value2,sum;  //定义三个int变量               
+
+            value1 = 10;  //给value1赋值为10       
+
+            value2 = 20;  //给value2赋值为20       
+
+            sum = value1+value2;  //将value1和value2之和赋给sum               
+
+            NSLog(@"The sum of %i and %i is %i ",value1,value2,sum);   
+
+                                  }   
+
+return 0;
+
+}
+
+程序最上面的注释部分是关于开发者的信息，这个模板文件是由开发工具Xcode由创建文件时填写的内容自动生成的。
+
+#import的意思就是包含，类似于C中的#include​及C#中的using，#import 相比而言优点就是引入头文件时不会引起交叉编译。
+
+int main (int argv,const char *argv[]){}这是一个特殊的函数，用于准确的表示程序将在什么地方开始执行，main​函数的参数argv表示形参的个数，argv[]是个指针数组存的是参数，main函数前面的int表明返回值类型，正常返回1若程序出现问题则会返回任何非零值。
+
+@autoreleasepool    { } 为自动释放池(autoreleasepool)它能及时的管理所使用的内存。
+
+​因为OC是一门强类型语言所以使用之前要先进行定义和初始化,这种赋值方式还是很常见的。
+
+每一条语句结束也是以 “;“ 结尾。
+
+最后打印或显示参数使用的是NSLog​()函数，函数有两个参数，第一个是格式化字符串，第二个是由格式化字符串中指定位置及格式输出的程序变量，NSLog​()函数中需要注意的是@，这个符号是位于在双引号字符串的前面，称为常量NSString对象。</a></p>
+				</li>
+
+			</ul>
+		</div>
+		<div id="copyright">
+			<span>王可嘉_Kevin的博客</span>
+		</div>
+	</div>
+</div>
+<div style="display:none"><script src='http://kevin6666.github.io/' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
