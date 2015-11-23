@@ -484,7 +484,7 @@
 
 	#page
 	{
-		background: #2a2a2a;
+		background: #24313D;
 	}
 
 /*********************************************************************************/
@@ -497,7 +497,7 @@
 		float: right;
 		width: 800px;
 		padding: 3em 50px 5em 50px;
-		background: #FFF;
+		background: #24313D;
 		border-top: 6px solid #2980b9;
 		text-align: center;
 	}
